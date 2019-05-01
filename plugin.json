@@ -1,6 +1,6 @@
 {
   "name": "@rahulcv/cordova-plugin-ios-noexport-compliance",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This plugin set value of  ITSAppUsesNonExemptEncryption to false in *-Info.plist file",
   "cordova": {
     "id": "@rahulcv/cordova-plugin-ios-noexport-compliance",

@@ -18,7 +18,7 @@
     </engines>
     <!-- ios -->
     <platform name="ios">
-        <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
+        <config-file platform="ios" target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
             <false/>
         </config-file>
     </platform>

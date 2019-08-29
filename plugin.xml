@@ -9,7 +9,7 @@
 
 
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="@rahulcv/cordova-plugin-ios-noexport-compliance" version="0.0.1">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-ios-noexport-compliance" version="1.0.0">
     <name>iOS  Export Compliance</name>
     <description>This plugin set value of  ITSAppUsesNonExemptEncryption to false in *-Info.plist file</description>
     <license>MIT</license>
@@ -17,9 +17,9 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
     <!-- ios -->
-    <platform name="ios">
-        <config-file platform="ios" target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
-            <false/>
-        </config-file>
-    </platform>
+     <platform name="ios">
+    <config-file platform="ios" target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
+      <false/>
+    </config-file>
+  </platform>
 </plugin>
